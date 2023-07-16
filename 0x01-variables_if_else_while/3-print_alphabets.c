@@ -12,14 +12,14 @@ int alpupper = 'A';
 while (alplower <= 'z')
 {
 putchar(alplower);
-putchar('\n');
 alplower++;
 }
 while (alpupper <= 'Z')
 {
 putchar(alpupper);
-putchar('\n');
 alpupper++;
 }
+putchar('\n');
+
 return (0);
 }
