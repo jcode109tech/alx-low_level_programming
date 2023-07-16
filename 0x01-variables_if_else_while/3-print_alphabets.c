@@ -7,12 +7,19 @@
 */
 int main(void)
 {
-char alph[26] = "abcdefghijklmnopqrstuvwxyz";
-
-for (i = 0; i < strlen(alph); i++)
+int alplower = 'a';
+int alpupper = 'A';
+while (alplower <= 'z')
 {
-putchar(alph[i]);
+putchar(alplower);
 putchar('\n');
+alplower++;
+}
+while (alpupper <= 'Z')
+{
+putchar(alpupper);
+putchar('\n');
+alpupper++;
 }
 return (0);
 }
