@@ -8,11 +8,11 @@
 int main(void)
 {
 int i, j, k;
-for (i = 48; i < 58; i++)
+for (i = 48; i <= 57; i++)
 {
-for (j = 49; j < 58; j++)
+for (j = 48; j <= 57; j++)
 {
-for (k = 50; k < 58; k++)
+for (k = 48; k <=57; k++)
 {
 if (k > j && j > i)
 {
