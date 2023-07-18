@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - checks lowercase character
- * @c: Ascii values
+ * _isalpha - checks lowercase characte
+ *
+ * @c: Ascii values to chesck if it either uppercase or lowercase
  *
  * Return: 1 if true , 0 otherwise
  */
