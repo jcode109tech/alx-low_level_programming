@@ -2,7 +2,7 @@
 
 /**
  * _abs - calculates the absolute value
- *@int: - undefined data type
+ *@num: - undefined data type
  *
  * Return: absolute value of paramete int
  */
