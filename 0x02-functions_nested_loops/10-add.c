@@ -3,11 +3,12 @@
 /**
  * add - t adds two integers and returns the result.
  *
- * @int, int - values entered
+ * @i: - value entered
+ * @j: - values entered
  *
- * Return: Always 0.
+ * Return: sum of 2 intergers
  */
-int add(int i , int  j)
+int add(int i, int  j)
 {
 int k = i + j;
 return (k);
