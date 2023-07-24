@@ -6,7 +6,7 @@
  * and updates the value it
  * points to to 98.
  *
- * @*n: address of n.
+ * @n: address of n.
  *
  * Return: n
  */
