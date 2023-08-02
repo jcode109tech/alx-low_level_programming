@@ -4,6 +4,8 @@
  * _sqrt_recursion - a function that returns the natural
  * square root of a number.
  * @n: - int value
+ * @i: - recusive int
+ *
  * Return: sqrt
  */
 
