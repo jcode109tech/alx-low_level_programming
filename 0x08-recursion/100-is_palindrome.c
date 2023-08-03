@@ -34,7 +34,7 @@ int _strlen_pal(char *s)
 
 /**
  *_check_pal --checks palindrome
- * @len - length of string
+ * @len: - length of string
  * @i: - iterater
  * Return: comparison
  */
