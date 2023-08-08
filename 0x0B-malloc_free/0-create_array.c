@@ -6,6 +6,7 @@
  * and initializes it with a specific char.
  * @size: - size of insigned integer.
  * @c: - character.
+ * Description: create array of size size and assign char c
  * Return:
  */
 
