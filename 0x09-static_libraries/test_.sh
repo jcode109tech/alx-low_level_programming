@@ -21,6 +21,3 @@ vim -E -s "$filename" <<-EOF
   execute 'normal! gg=G'
   x
 EOF
-
-echo "Indentation successfull"
-echo "Trailing whitespaces removed successfully"

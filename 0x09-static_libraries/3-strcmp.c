@@ -6,7 +6,7 @@
  * @s1: - string pointer.
  * @s2: - string pointer.
  *
- * Return:
+ * Return: 0 Always
  */
 
 int _strcmp(char *s1, char *s2)
@@ -22,7 +22,7 @@ int _strcmp(char *s1, char *s2)
 			return (s1[i] - s2[i]);
 		}
 		i++;
-		
+
 	}
 
 	return (0);
