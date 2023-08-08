@@ -7,21 +7,21 @@
  * @size: - size of insigned integer.
  * @c: - character.
  * Return:
-*/
+ */
 
 char *create_array(unsigned int size, char c)
 {
-    char *B = malloc(size * sizeof(char));
+	char *B = malloc(size * sizeof(char));
 
-    unsigned int i = 0;
+	unsigned int i = 0;
 
-    if (size == 0 || B == NULL)
-       return (NULL);
-    
-    for (; i < size; i++)
-    {
-        B[i] = c;
-    }
+	if (size == 0 || B == NULL)
+		return (NULL);
 
-    return (B);
+	for (; i < size; i++)
+	{
+		B[i] = c;
+	}
+
+	return (B);
 }
