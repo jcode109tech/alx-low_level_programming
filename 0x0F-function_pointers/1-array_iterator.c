@@ -16,7 +16,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 unsigned int i;
 
 if (array == NULL)
-return;gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-array_iterator.c -o b
+return;
 
 for (i = 0; i < size; ++i)
 action(array[i]);
