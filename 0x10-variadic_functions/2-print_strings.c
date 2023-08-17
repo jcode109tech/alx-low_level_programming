@@ -17,8 +17,7 @@ char *str;
 
 va_start(strg, n);
 
-if (n != 0)
-{
+
 for (i = 0; i < n; i++)
 {
 str = va_arg(strg, char *);
@@ -31,7 +30,7 @@ printf("%s", str);
 if (i != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
-}
+
 printf("\n");
 
 va_end(strg);
