@@ -1,14 +1,13 @@
-#include <stdio.h>
-#include "lists.h"
 
-void first(void) __attribute__ ((constructor));
+#include <stdio.h>
 
 /**
- * first - prints a sentence before the main function is executed
+ * main - check the code
  *
+ * Return: Always 0.
  */
-void first(void)
+int main(void)
 {
-printf("You're beat! and yet, you must allow,\n");
-printf("I bore my house upon my back!\n");
+printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
+return (0);
 }
