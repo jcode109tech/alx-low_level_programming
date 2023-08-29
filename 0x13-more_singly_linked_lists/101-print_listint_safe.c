@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* print_listint_safe - a function that prints listint_t linked list
+* @head: struct *
+* Return: nodecount
+*/
+
 size_t print_listint_safe(const listint_t *head)
 {
 const listint_t *current = head;
