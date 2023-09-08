@@ -225,8 +225,10 @@ int main(int argc, char* argv[]) {
         return 1;
     }
    
+    fclose(elf_file);
+
+	/*check_elf(elf_header.e_ident);*/
 	printf("ELF Header:\n");
-	check_elf(elf_header.e_ident);
     print_magic_number(elf_header.e_ident);
     print_file_class(elf_header.e_ident[EI_CLASS]);
     print_data_encoding(elf_header.e_ident[EI_DATA]);
@@ -236,6 +238,5 @@ int main(int argc, char* argv[]) {
 	print_abi(elf_header.e_ident);
 	print_entry(elf_header.e_entry, elf_header.e_ident);
     
-    fclose(elf_file);
-    return 0;
+    return (0);
 }
